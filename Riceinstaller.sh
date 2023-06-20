@@ -32,11 +32,10 @@ sudo pacman --noconfirm -S alacritty feh dmenu dunst picom flameshot
 if [ -f ~/.config/picom.conf ]; then
     echo "picom conf backed up and new config installed"
     cp ~/.config/picom.conf ~/.config/picom.conf.bak
-    cp config/picom.conf ~/.config/picom.conf
+    cp config/picom/picom.conf ~/.config/picom.conf
 else
     echo "picom conf installed"
-    mkdir -p ~/.config/picom
-    cp config/picom.conf ~/.config/picom.conf
+    cp config/picom/picom.conf ~/.config/picom.conf
 fi
 
 #Installing alacritty config
