@@ -19,7 +19,8 @@ then
 fi
 # Dependecies moment
 
-sudo pacman --noconfirm -S alacritty dmenu dunst picom feh flameshotyay -S --noconfirm polybar
+sudo pacman --noconfirm -S alacritty dmenu dunst picom feh flameshot
+yay -S --noconfirm polybar
 
 # Rice time!!!
 
@@ -111,4 +112,3 @@ else
 fi
 
 echo "Thank you bbg for using the script"
-
