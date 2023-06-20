@@ -64,10 +64,10 @@ fi
 #Adding wallpapers
 if [ -d ~/Pictures/wallpapers ]; then
     echo "adding wallpapers"
-    cp wallpapers/houses.png ~/Pictures/wallpapers/
+    cp wallpapers/houses.png ~/Pictures/houses.png
 else
     echo "adding wallpapers"
-    mkdir ~/Pictures/wallpapers && cp -r wallpapers/houses.png ~/Pictures/wallpapers/;
+    cp  wallpapers/houses.png ~/Pictures/houses.png;
 fi
 
 #Installing i3 config
